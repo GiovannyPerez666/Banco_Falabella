@@ -1,0 +1,601 @@
+body {
+    margin: 0;
+    font-family: pfbeausans,Arial,sans-serif;
+  }
+  
+  .top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .icono-top {
+    width: 18px; /* Tamaño deseado en píxeles */
+    height: 18px; /* Tamaño deseado en píxeles */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    margin-right: 5px; /* Opcional: añade un margen a la derecha del icono */
+}
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
+  
+  .menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+
+
+
+  .menu1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center; /* Añade esta propiedad para centrar el menú */
+  }
+  
+  .menu1 li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu1 li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu1 li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .menu1 li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+
+
+
+
+  .logo {   
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block; /* Agrega esta propiedad para que el logo no ocupe todo el ancho disponible */
+}
+
+
+.button-case {   
+    padding: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block; /* Agrega esta propiedad para que el logo no ocupe todo el ancho disponible */
+}
+  .button-right {
+    padding: .6rem 1rem;
+    letter-spacing: .16rem; /* Agrega espaciado entre las letras */
+
+    background-color: #38a121;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-color: #38a121;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Agrega esta propiedad para que el botón se ajuste al contenido */
+}
+
+
+/* body */
+
+.button-de-slider {
+font-weight: bold;
+
+  padding: .6rem 1rem;
+  letter-spacing: .16rem; /* Agrega espaciado entre las letras */
+  position: absolute;
+  top: 80%; /* Coloca el botón en el centro vertical */
+  left: 30%; /* Coloca el botón en el centro horizontal */
+  transform: translate(-50%, -50%); /* Centra el botón exactamente */
+  background-color: #38a121;
+  padding: 10px 20px; /* Espacio interior del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px;
+  color: #ffffff; /* Color del texto */
+  font-size: 16px;
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+
+
+
+
+ul li {
+    position: relative; /* Establece la posición relativa para que los elementos secundarios puedan usar posicionamiento absoluto */
+  }
+  
+  .text-sliders {
+
+    padding: .6rem 1rem;
+    letter-spacing: .16rem; /* Agrega espaciado entre las letras */
+    position: absolute; /* Establece la posición absoluta para superponer el texto */
+    top: 40%; /* Lo posiciona en la mitad superior del li */
+    left: 30%; /* Lo posiciona en el centro horizontal del li */
+    transform: translate(-50%, -50%); /* Centra el texto en el li */
+    z-index: 1; /* Asegura que el texto esté sobre la imagen */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    padding: 10px 20px; /* Espaciado interno */
+
+
+    font-weight: lighter;
+}
+
+
+
+  form {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajusta el margen entre los campos */
+  }
+  
+  label {
+    margin-right: 10px; /* Ajusta el margen entre la etiqueta y el campo de entrada */
+    font-size: 24px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    font-weight: bold; /* Peso de la fuente */
+    letter-spacing: .16rem; /* Agrega espaciado entre las letras */
+
+
+
+
+  } 
+  
+  .simular {
+    margin-top: 10px;
+    background: #f7f7f7;
+    border: 0.5px solid #cfdae6;
+    border-radius: 8px;
+    margin-left: 200px; /* Ajusta el valor según lo que necesites */
+    margin-right: 130px; /* Ajusta el valor según lo que necesites */
+
+}
+
+
+
+  /* CARRUSEL */
+
+  .carousel-container {
+    position: relative;
+    width: 80%; /* Ajusta el tamaño del carrusel según sea necesario */
+    margin: 5 auto;
+    padding-left: 10%;
+
+}
+  
+
+  .carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth; /* Hace el desplazamiento más suave */
+
+  }
+  
+  .slide {
+    flex: 0 0 33.33%;
+    scroll-snap-align: start;
+  }
+  
+  .slide img {
+    max-width: 100%;
+  }
+  
+  .control {
+
+  
+  width: 50px;
+  height: 50px;
+  top: 80%;
+  margin-top: -25px;
+  color: #fff;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 50%; /* Hace que el botón sea redondo */
+  font-size: 20px;
+
+}
+
+  .prev {
+    left: 10%;
+    top: 120px;
+  }
+  
+  .next {
+    right: 5%;
+    top: 120px;
+
+  }
+  /* Para asegurarse de que las primeras imágenes se repitan al final */
+.slide:first-child {
+    order: -1;
+  }
+  
+  /* Para asegurarse de que las últimas imágenes se repitan al principio */
+  .slide:last-child {
+    order: 1;
+  }
+
+
+  .texto-cartas {
+    padding-left: 5% ;
+    width: 60%;
+    font-size: 15px;
+    position: center;
+
+  }
+
+
+  .slide a { /* para elimminar los subrayados(hipervinculos de todos los A de "slide") */
+    text-decoration: none;
+    color: inherit; /* Establece el color del texto para que sea el mismo que el color predeterminado del texto */
+}
+
+
+/* ultimas fotos de body COLLAGE */
+
+
+.collage { 
+    padding-left: 57%;
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    display: flex;
+
+}
+
+
+.collage h3  { 
+    padding-top: 2%;
+    font-size: 20px;
+    width: 50%;
+    position: absolute;
+    margin-left: -55%;
+    text-align: center; /* Centra horizontalmente el texto */
+
+}
+
+.collage h4  { 
+    padding-top: 6%;
+    font-size: 18px;
+    width: 50%;
+    position: absolute;
+    margin-left: -55%;
+    text-align: center; /* Centra horizontalmente el texto */
+    font-weight: lighter;
+
+}
+
+
+.button-caseleft {   
+    margin-bottom: 40%;
+    padding: 23%;
+    padding-top: 12%;
+    padding-bottom: 1%;
+    display: inline-block; /* Agrega esta propiedad para que el logo no ocupe todo el ancho disponible */
+    position: absolute;
+
+}
+  .button-bodyleft {
+    padding: .6rem 1rem;
+    letter-spacing: .16rem; /* Agrega espaciado entre las letras */
+
+    background-color: #38a121;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-color: #38a121;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Agrega esta propiedad para que el botón se ajuste al contenido */
+}
+
+
+
+
+
+.button-caseright {   
+    left: 71.5%; /* Mueve el botón hacia la derecha */
+    margin-bottom: 80%;
+    padding-top: 12%;
+    padding-bottom: 10%;
+
+    display: inline-block; /* Agrega esta propiedad para que el logo no ocupe todo el ancho disponible */
+    position: absolute;
+
+}
+
+
+
+
+  .button-bodyright {
+    padding: .6rem 1rem;
+    letter-spacing: .16rem; /* Agrega espaciado entre las letras */
+
+    background-color: #38a121;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-color: #38a121;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Agrega esta propiedad para que el botón se ajuste al contenido */
+    
+}
+
+
+.collage-right { 
+    padding-left: 12%;
+    display: flex;
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+
+
+}
+
+.collage { 
+    padding-left: 57%;
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    display: flex;
+
+}
+
+.collage-right h3  { 
+    left: 65%;
+    padding-top: 2%;
+    font-size: 20px;
+    position: absolute;
+    text-align: center; /* Centra horizontalmente el texto */
+
+}
+
+
+
+.collage-right h4  { 
+
+    left: 62%;
+
+    padding-top: 6%;
+    font-size: 18px;
+    position: absolute;
+    text-align: center; /* Centra horizontalmente el texto */
+    font-weight: lighter;
+
+}
+
+
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+
+
+
+}
+
+
+.footer h4 {
+  color:#ffffff;
+  padding-left:80px;
+  text-decoration: none;
+  color: inherit; /* Establece el color del texto para que sea el mismo que el color predeterminado del texto */
+  font-size: 20px;
+
+}
+
+
+.footer-links
+{
+  padding-left:80px;
+  list-style:none
+  
+}
+
+.footer a {
+    color:#ffffff;
+    text-decoration: none;
+    line-height: 28px; /* Interlineado de 24 píxeles */
+    font-weight: lighter;
+    font-size: 13px;
+    color: inherit; /* Establece el color del texto para que sea el mismo que el color predeterminado del texto */
+  
+  }
+
+
+  
+
+
+
+  .footer1 {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+}
+
+.footer-column1 {
+    flex: 0; /* Hace que ambas columnas ocupen el mismo espacio */
+    padding: 0 20px; /* Añade espacio entre las columnas */
+}
+
+
+
+
+
+.footer-final {
+background-color: #333;
+color:#ffffff;
+
+
+
+
+
+}
+
+.footer-final h1{
+    font-weight: lighter;
+    font-size: 9px;
+    text-align: center; /* Ajusta el texto al centro horizontal */
+    line-height: 28px; /* Interlineado de 24 píxeles */
+    margin-bottom: 0%;
+
+    
+    
+    
+    
+    }
+
+
+
+
+    .button-casefinal {   
+        margin-bottom: 40%;
+        padding-left: 80%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: inline-block; /* Agrega esta propiedad para que el logo no ocupe todo el ancho disponible */
+        position: absolute;
+        font-weight: lighter;
+
+    
+    }
+      .button-footfinal {
+        padding: .6rem 1rem;
+        font-weight: lighter;
+
+        background-color: #ffffff;
+        font-family: sans-serif;
+        border: none;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block; /* Agrega esta propiedad para que el botón se ajuste al contenido */
+    }
+
+
+    .button-footfinal i {
+        margin-right: 5px; /* Espacio entre el icono y el texto */
+    }
+    
+
+    .social-icons a {
+        color: white;
+        margin: 0 10px; /* Espacio entre los iconos */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .button-floating {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 9999;
+    }
+    
+    .whatsapp-icon {
+        display: block;
+        background-color: #25D366; /* Color de fondo del botón de WhatsApp */
+        color: #fff; /* Color del texto del botón */
+        width: 50px; /* Ancho del botón */
+        height: 50px; /* Altura del botón */
+        border-radius: 50%; /* Borde redondeado para hacer un círculo */
+        text-align: center; /* Alineación del contenido del botón */
+        line-height: 50px; /* Ajuste vertical del contenido */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra del botón */
+    }
+    
+    .whatsapp-icon i {
+        font-size: 30px; /* Tamaño del icono de WhatsApp */
+        line-height: 50px; /* Ajuste vertical del icono */
+    }
+    
